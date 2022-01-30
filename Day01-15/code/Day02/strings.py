@@ -18,4 +18,5 @@ print('字符串是不是以感叹号开头: ', str1.startswith('!'))
 print('字符串是不是一感叹号结尾: ', str1.endswith('!'))
 str2 = '- \u9a86\u660a'
 str3 = str1.title() + ' ' + str2.lower()
+print(str2)
 print(str3)
